@@ -20,5 +20,5 @@ if res != []:
 print(latest_version)
 
 #! All commands to update :3c
-subprocess.run(['sudo', 'dpkg', '-i', latest_version])
+subprocess.run(['sudo', 'dpkg', '-i', f'/home/{userName}/Downloads/{latest_version}'])
 subprocess.run(['h', '-c' '"$(curl -sS https://raw.githubusercontent.com/Vendicated/VencordInstaller/main/install.sh)"'])
