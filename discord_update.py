@@ -21,4 +21,5 @@ print(latest_version)
 
 #! All commands to update :3c
 subprocess.run(['sudo', 'dpkg', '-i', f'/home/{userName}/Downloads/{latest_version}'])
+#! doesn't work?? yet will update when I figure it out
 subprocess.run(['h', '-c' '"$(curl -sS https://raw.githubusercontent.com/Vendicated/VencordInstaller/main/install.sh)"'])
